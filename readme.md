@@ -22,3 +22,4 @@
 - Edit Header and Footer in views/layouts/app.blade.php
 - Customize your colors and display in public/css/app.scss
 
+**NOTE: In order for the site to work you have to login, but I broke registration. Until I get that fixed, you'll have to know how to fix that yourself.**
