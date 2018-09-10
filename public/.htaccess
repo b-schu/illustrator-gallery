@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+	<IfModule mod_negotiation.c>
+	Options -MultiViews
+	</IfModule>
+
+	RewriteEngine On
+
+	# Redirect Trailing Slashes If Not A Folder...
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+	# Handle Front Controller...
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^ index.php [L]
+
+	# Handle Authorization Header
+	RewriteCond %{HTTP:Authorization} .
+	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+	# Brendon's redirect for sub folder
+	# redirect "/section.php?id=xxx" to "/section/xxx"
+	#RewriteCond %{THE_REQUEST} \s/section\.php\?id=([0-9]+)\s [NC]
+	#RewriteRule ^ /section/%1? [R=301,L]
+
+	# internally rewrite "/section/xxx" to "/section.php?id=xxx"
+	#RewriteRule ^bschu_pub/(.*)$ bschu_pub/index.php/$1 [L]
+	#RewriteRule ^index.php$ http://localhost/ [R=301,L]
+</IfModule>
