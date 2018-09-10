@@ -15,6 +15,7 @@
 - Clone to your directory.
 - Make a database.
 - Setup .env file for database and migrate.
+- For emails to work include a line in .env such as ADMIN_EMAIL=yourname@email.com
 - Edit the Laravel view files per your situation.
 - Edit welcome.blade.php for the home page.
 - Edit social.blade.php for your social details.
