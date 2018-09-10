@@ -18,7 +18,7 @@ class SocialController extends Controller
 		$content = Input::get("content");
 		$email = Input::get("email");
 		$nextpage = "/".Input::get("nextpage");
-		Mail::to("brendon.schu@gmail.com")->send(new contact($content,$email));
+		Mail::to($_ENV["ADMIN_EMAIL"])->send(new contact($content,$email));
 		return Redirect::to($nextpage)->with(["message"=>"Message sent. Thank you! I'll get back to you as soon as I can."]);
 	}
 
