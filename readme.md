@@ -1,14 +1,23 @@
-## ILLUSTRATOR GALLERY
+# ILLUSTRATOR GALLERY
 
-# About Laravel
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+- Developed in Laravel with a clean, beautiful SCSS/jQuery interface.
+- Easily add/edit/delete/position images with custom categories.
+- Gallery displays images with title in Slick Carousel.
+- No page load wait while switching category view (thanks jQuery!).
+- Includes a categorized Course Gallery for Illustrator instructional videos.
+- User friendly admin interface for managing illustrations and courses.
+- Contact form with secure SMTP mail.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Usage Notes
+
+- Clone to your directory.
+- Make a database.
+- Setup .env file for database and migrate.
+- Edit the Laravel view files per your situation.
+- Edit welcome.blade.php for the home page.
+- Edit social.blade.php for your social details.
+- Edit Header and Footer in views/layouts/app.blade.php
+- Customize your colors and display in public/css/app.scss
 
