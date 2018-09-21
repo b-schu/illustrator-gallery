@@ -16,6 +16,7 @@
 - Make a database.
 - Setup .env file for database and migrate.
 - For emails to work include a line in .env such as ADMIN_EMAIL=yourname@email.com
+- Add file config/mail.php and edit per Laravel's directions.
 - Edit the Laravel view files per your situation.
 - Edit welcome.blade.php for the home page.
 - Edit social.blade.php for your social details.
