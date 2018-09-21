@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Site -->
     <title>Brendon Schumacker</title>
+    <link rel="icon" type="image/png" href="{{ URL::to('/') }}/images/logo.png" />
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -14,6 +16,7 @@
     <link href="<? print URL::to("/"); ?>/css/app.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<? print URL::to("/"); ?>/css/slick.css"/>
     <link href="<? print URL::to("/"); ?>/css/mailchimp.css" rel="stylesheet" type="text/css">
+
     <!-- Scripts -->
     <script src="<? print URL::to("/"); ?>/js/jquery-3.3.1.min.js"></script>
     <script src="<? print URL::to("/"); ?>/js/jquery-ui.js"></script>
