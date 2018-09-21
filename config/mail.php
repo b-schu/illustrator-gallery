@@ -1,5 +1,7 @@
 <?php
 
+// This should be ignored by GitHub
+
 return [
 
     /*
