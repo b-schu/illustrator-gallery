@@ -1,6 +1,7 @@
 <?php
 
 // This should be ignored by GitHub
+// This should also be ignored
 
 return [
 
