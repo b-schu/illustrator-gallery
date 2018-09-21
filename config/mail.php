@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'mail.dream-gears.com'),
+    'host' => env('MAIL_HOST', 'mail.somehost.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'brendon@dream-gears.com'),
-        'name' => env('MAIL_FROM_NAME', 'Brendon Schumacker'),
+        'address' => env('MAIL_FROM_ADDRESS', 'name@somehost.com'),
+        'name' => env('MAIL_FROM_NAME', 'Your Name'),
     ],
 
     /*
@@ -84,7 +84,7 @@ return [
     |
     */
 
-    'username' => env('brendon@dream-gears.com'),
+    'username' => env('name@somehost.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -97,7 +97,7 @@ return [
     |
     */
 
-    'password' => env('Fish@@22Food'),
+    'password' => env('SecretPassword'),
 
     /*
     |--------------------------------------------------------------------------
